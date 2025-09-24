@@ -23,7 +23,7 @@ export const BackgroundCircles = () => {
     <>
       <div className="absolute top-[4.4rem] left-16 w-3 h-3 bg-gradient-to-b from-[#593ea4] to-[#1A1A32] rounded-full"></div>
       <div className="absolute top-[12.6rem] right-16 w-5 h-5 bg-gradient-to-b from-[#23d08b] to-[#1A1A32] rounded-full"></div>
-      <div className="absolute top-[35.8rem] left-20 w-6 h-6 bg-gradient-to-b from-[#7a98c8] to-[#1A1A32] rounded-full"></div>
+      <div className="absolute top-[35.8rem] left-20 w-6 h-6 bg-gradient-to-b from-[#eee18c] to-[#1A1A32] rounded-full"></div>
     </>
   );
 };

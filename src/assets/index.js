@@ -25,7 +25,9 @@ import pbackground from "./P_logo.png";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
+import prism from "./hero/prism.jpg";
 import heroBackground from "./hero/hero-background.jpg";
+import prismBackground from "./hero/background_prism_edit.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
@@ -104,6 +106,8 @@ export {
   pbackground,
   curve,
   robot,
+  prism,
+  prismBackground,
   heroBackground,
   curve1,
   curve2,
