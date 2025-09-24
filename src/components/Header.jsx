@@ -34,10 +34,10 @@ const Header = () => {
           href="#signup"
           className="button hidden mr-8 lg:text-sm text-n-1/50 transition colors hover:text-color-1 lg:block "
         >
-          New Account
+          Search
         </a>
-        <Button className=" lg:flex" href="#login">
-          Sign In
+        <Button className=" lg:flex" href="#contact">
+          Contact Us
         </Button>
       </div>
     </div>
