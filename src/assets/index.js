@@ -12,6 +12,7 @@ import loading1 from "./loading-01.svg";
 import target from "./target-symbol.svg";
 import yourlogo from "./yourlogo.svg";
 import uoft from "./uoft.png";
+import marslogo from "./mars_logo.png";
 import homeSmile from "./home-smile.svg";
 import file02 from "./file-02.svg";
 import searchMd from "./search-md.svg";
@@ -96,6 +97,7 @@ export {
   grid,
   yourlogo,
   uoft,
+  marslogo,
   homeSmile,
   file02,
   searchMd,

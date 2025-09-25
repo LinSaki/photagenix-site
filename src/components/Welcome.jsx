@@ -36,7 +36,7 @@ const Welcome = () => {
             SUBHEADING -TOMO BIG BRAIN
           </p>
           <Button href="/contactus" white>
-            Contact Us!
+            Shopify
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
