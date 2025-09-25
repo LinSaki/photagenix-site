@@ -1,10 +1,12 @@
 import Section from "./Section";
 import { curve, prismBackground, prism } from "../assets";
 import Button from "./Button";
-import { BackgroundCircles, BottomLine, Gradient } from "./design/design/Hero";
+import { BackgroundCircles, BottomLine, Gradient } from "./design/Welcome";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
+import { useRef } from "react";
 const Welcome = () => {
+  const parallaxRef = useRef(null);
   return (
     <Section
       className="pt-[12rem] -mt-[5.25rem]"
@@ -13,10 +15,10 @@ const Welcome = () => {
       customPaddings
       id="welcome"
     >
-      <div className="container relative">
+      <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]">
           <h1 className="h1 mb-6">
-            Explore the Possibilities with
+            Explore the Possibilities with{" "}
             <span className="inline-block relative">
               Photagenix{" "}
               <img
@@ -47,8 +49,19 @@ const Welcome = () => {
                   height={490}
                   alt="prism"
                 />
+
+                <ScrollParallax isAbsolutelyPositioned>
+                  <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
+                    {heroIcons.map((icon, index) => (
+                      <li className="p-5" key={index}>
+                        <img src={icon} width={24} height={25} alt={icon} />
+                      </li>
+                    ))}
+                  </ul>
+                </ScrollParallax>
               </div>
             </div>
+            <Gradient />
           </div>
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
@@ -59,8 +72,10 @@ const Welcome = () => {
               alt="background"
             />
           </div>
+          <BackgroundCircles />
         </div>
       </div>
+      <BottomLine />
     </Section>
   );
 };
