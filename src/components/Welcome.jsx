@@ -1,6 +1,9 @@
 import Section from "./Section";
 import { curve, prismBackground, prism } from "../assets";
 import Button from "./Button";
+import { BackgroundCircles, BottomLine, Gradient } from "./design/design/Hero";
+import { heroIcons } from "../constants";
+import { ScrollParallax } from "react-just-parallax";
 const Welcome = () => {
   return (
     <Section
