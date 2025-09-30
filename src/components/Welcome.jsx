@@ -43,7 +43,7 @@ const Welcome = () => {
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
             <div className="relative bg-n-8 rounded-[1rem]">
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
-              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect[688/490] lg:aspect-[1024/490]">
+              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
                   src={prism}
                   className="w-full scale-[1.4] translate-y-[10%] md:scale[1] md:scale-[1] md:-translate-y-[1%] lg:scale-[1] lg:-translate-y-[2%]"
