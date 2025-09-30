@@ -67,7 +67,7 @@ const Welcome = () => {
             </div>
             <Gradient />
           </div>
-          <div className="absolute -top-[78%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+          <div className="absolute -top-[87%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[78%] md:w-[138%] lg:-top-[104%] lg:w-[190%]">
             <img
               src={prismBackground}
               className="w-full"
