@@ -35,7 +35,7 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8" href="/welcome">
+        <a className="block w-[12rem] xl:mr-8" href="#welcome">
           <img src={photagenix} width={190} height={40} alt="Photagenix" />
         </a>
 
@@ -66,7 +66,7 @@ const Header = () => {
         </nav>
 
         <a
-          href="#signup"
+          href="#search"
           className="button hidden mr-8 lg:text-sm text-n-1/50 transition colors hover:text-color-1 lg:block "
         >
           Search

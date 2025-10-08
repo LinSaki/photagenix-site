@@ -7,7 +7,7 @@ import { Gradient } from "./design/Services";
 import Button from "./Button";
 
 const Roadmap = () => (
-  <Section className="overflow-hidden" id="roadmap">
+  <Section className="overflow-hidden" id="road-map">
     <div className="container md:pb-10">
       <Heading tag="Ready to get started" title="Roadmap" />
 
