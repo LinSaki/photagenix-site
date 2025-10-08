@@ -35,7 +35,7 @@ const Welcome = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             SUBHEADING
           </p>
-          <Button href="/contactus" white>
+          <Button target="_blank" href="https://www.shopify.com/ca" white>
             Shopify
           </Button>
         </div>
